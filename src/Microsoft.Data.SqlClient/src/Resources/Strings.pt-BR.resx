@@ -4729,6 +4729,6 @@
     <value>NTLM authentication is not possible with default credentials on this platform.</value>
   </data>
   <data name="SqlParameter_SourceColumnNullMapping" xml:space="preserve">
-    <value>When used by DataAdapter.Update, the parameter value is changed from DBNull.Value into (Int32)1 or (Int32)0 if non-null!</value>
+    <value>When used by DataAdapter.Update, the parameter value is changed from DBNull.Value into (Int32)1 or (Int32)0 if non-null.</value>
   </data>
 </root>
