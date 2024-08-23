@@ -58,8 +58,8 @@ jobs:
   - script: SET
     displayName: 'Print Environment Variables'
 
-  - task: NuGetToolInstaller@1
-    displayName: 'Use NuGet '
+  #- task: NuGetToolInstaller@1
+  #  displayName: 'Use NuGet '
 
   - powershell: |
       #Sets Variables for AssemblyFileVersion, AssemblyVersion and NugetPackageVersion

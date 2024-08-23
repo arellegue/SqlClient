@@ -16,5 +16,5 @@ steps:
     Get-Service $svc_name | Select-Object -Property Name, StartType, Status
   displayName: 'Start SQLBrowser'
 
-- task: NuGetToolInstaller@1
-  displayName: 'Use NuGet '
+#- task: NuGetToolInstaller@1
+#  displayName: 'Use NuGet '

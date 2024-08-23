@@ -27,10 +27,10 @@ parameters:
     - package
 
 steps:
-- task: NuGetToolInstaller@1
-  displayName: 'Install Latest Nuget'
-  inputs:
-    checkLatest: true
+#- task: NuGetToolInstaller@1
+#  displayName: 'Install Latest Nuget'
+#  inputs:
+#    checkLatest: true
 - powershell: |
     $Commit=git rev-parse HEAD
     Write-Host "##vso[task.setvariable variable=CommitHead;]$Commit"
